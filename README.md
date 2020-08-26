@@ -3,7 +3,8 @@ Web_scraping_images.ipynb notebook contains the following methods:
 Some successful methods have been complied in a paper.    
 Web scraping methods using.   
 1.BeautifulSoup 
-'''ruby  
+ 
+```ruby
 import re
 import requests
 from bs4 import BeautifulSoup
@@ -26,7 +27,7 @@ def download_google(url):
 download_google('https://www.google.com/search?q=flowers&sxsrf=ALeKk00uvzQYZFJo03cukIcMS-pcmmbuRQ:1589501547816&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjEm4LZyrTpAhWjhHIEHewPD1MQ_AUoAXoECBAQAw&biw=1440&bih=740')
 
 f.close()
-'''
+```
 2.gooliser  
 3.googledownload   
 4.pyimagesearch have been included  
