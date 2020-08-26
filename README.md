@@ -1,5 +1,11 @@
 ## Web-scraping-for-images 
-Some of the methods which I tried are compiled here:  
+Some of the methods which I tried are compiled here: 
+1.BeautifulSoup  
+2.google_images_download  
+3. gooliser  
+4.pyimagesearch  
+5.Images from youtube videos as frames
+
    
 ### 1.BeautifulSoup (Web_scraping_images.ipynb)
  
@@ -30,7 +36,7 @@ f.close()
 As can be seen these are urls of 20 images. When these images are opened, we see a small picture in the centre of the screen. As I wanted to download as many images as shown in the google search engine, I tried other methods.
 
 
-### 2.With google_images_download (Web_scraping_images.ipynb)
+### 2.google_images_download (Web_scraping_images.ipynb)
 The code is made available by geeksfoegeeks at :  
 https://www.geeksforgeeks.org/how-to-download-google-images-using-python/![image.png](attachment:image.png)  
 ```ruby
@@ -84,7 +90,7 @@ for query in search_queries:
 ```
 A folder named download gets created in the same folder where the script is running, and subfolders are created inside it for different search query. But it can download mximum 100 images only.
 
-### 3.using gooliser (Web_scraping_images.ipynb)
+### 3. gooliser (Web_scraping_images.ipynb)
 With this, I was able to download at least 135 images , which seemed pretty cool! The link to this code is as follows https://github.com/teracow/googliser  
 Go to the command window:
 And type:
@@ -324,7 +330,7 @@ import cv2
 pip install pytube3
 from pytube import YouTube
 
-video = YouTube('https://www.youtube.com/watch?v=GTkU4qj6v7g')
+video = YouTube('youtube url ')
 #video.streams.all()
 video.streams.filter(file_extension = "mp4").all()
 
