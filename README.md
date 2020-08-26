@@ -1,5 +1,5 @@
 ## Web-scraping-for-images 
-Some of the methods which I tried are compiled here: 
+Some of the methods which I tried are compiled here:  
 1.BeautifulSoup  
 2.google_images_download  
 3. gooliser  
